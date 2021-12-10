@@ -29,13 +29,9 @@ function purchaseClicked(){
 
     }
 else     {console.log(cart);
-        cart = arr;
+       
          alert('Thank you for your purchase!');
-         cart = arr;
-         cart.forEach(item  => {removeFromCart(item)})
-         cart.filter((item) => (<CartItem key={item.id}   itemData={item}   />))
-         window.location.reload(true);
-        return [];}
+}
     
 }
 return(
